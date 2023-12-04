@@ -209,7 +209,6 @@
 
           
 
-
         <tr onmouseout="o2f_start()" onmouseover="o2f_stop()">
           <td style="padding:25px;width:35%;vertical-align:middle">
 
@@ -253,7 +252,55 @@
           </td>
         </tr> 
 
-        
+
+          
+        <tr onmouseout="fpr_start()" onmouseover="fpr_stop()">
+          <td style="padding:25px;width:35%;vertical-align:middle">
+
+            <div class="one">
+              <div class="two" id='fpr_image'>
+                <img src='imgs/fpr_2.png' width="320" height="150">
+              </div>
+              <img src='imgs/fpr_1.png' width="320" height="150">
+            </div>
+            <script type="text/javascript">
+              function fpr_start() {
+                document.getElementById('fpr_image').style.opacity = "1";
+              }
+
+              function fpr_stop() {
+                document.getElementById('fpr_image').style.opacity = "0";
+              }
+              fpr_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:65%;vertical-align:middle">
+            <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_FPR_False_Positive_Rectification_for_Weakly_Supervised_Semantic_Segmentation_ICCV_2023_paper.html">
+              <papertitle>FPR: False Positive Rectification for Weakly Supervised Semantic Segmentation</papertitle>
+            </a>
+            <br>
+            <a>Liyi Chen</a>,
+            <a>Chenyang Lei</a>,
+            <strong>Ruihuang Li</strong>,
+            <a>Shuai Li</a>,
+            <a>Lei Zhang</a>,
+            <a>Zhaoxiang Zhang</a>,
+            <a>Lei Zhang</a>
+            <br>
+            <em>CVPR</em>, 2023
+            <br>
+            <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_FPR_False_Positive_Rectification_for_Weakly_Supervised_Semantic_Segmentation_ICCV_2023_paper.html">paper</a> /
+            <a href="https://github.com/mt-cly/FPR">code</a> /
+            <a href="doc/FPR.bib">bibtex</a>
+            <br>
+            <p></p>
+            <p>
+            </p>
+          </td>
+        </tr>           
+
+
+          
         <tr onmouseout="cpsl_start()" onmouseover="cpsl_stop()">
           <td style="padding:25px;width:35%;vertical-align:middle">
 
